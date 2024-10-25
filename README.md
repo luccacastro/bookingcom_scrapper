@@ -48,7 +48,6 @@ This scraper collects data for **every single week over the entire winter season
 
 ## Notes
 - **Booking.com’s Anti-Scraping Measures**: Booking.com frequently updates its site structure to counteract scraping, so the scraper may require adjustments over time.
-- **ChromeDriver Compatibility**: Ensure your ChromeDriver is up-to-date and matches your version of Chrome to avoid compatibility issues.
 
 This scraper provides insights into the winter tourism market, highlighting seasonal pricing and availability trends across high-demand winter destinations.
 
