@@ -151,7 +151,6 @@ class BookingcomScrapper:
         for city in state:
             logging.info(f"Searching for hotels in {city}")
             
-            # Construct the search URL
             checkin_year, checkin_month, checkin_day = checkin.split("-")
             checkout_year, checkout_month, checkout_day = checkout.split("-")
             url = f"https://www.booking.com/searchresults.html?{urlencode({'ss': city, 'checkin_year': checkin_year, 'checkin_month': checkin_month, 'checkin_monthday': checkin_day, 'checkout_year': checkout_year, 'checkout_month': checkout_month, 'checkout_monthday': checkout_day, 'no_rooms': number_of_rooms})}"

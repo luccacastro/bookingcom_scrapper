@@ -23,20 +23,20 @@ This scraper collects data for **every single week over the entire winter season
 ## How to Run the Scraper
 
 ### Prerequisites
-- Python 3.x
-- ChromeDriver (compatible with your Chrome browser version)
+- Python 3.10
+- Firefox (compatible with your Firefo browser version)
 - Required libraries: Install with:
   ```bash
-  pip install selenium pandas openpyxl
+  pip install -r requirements.txt
   ```
 
 ### Steps to Run
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/luccacastro/bookingcom_scrapper
+   cd bookingcom_scrapper
    ```
-2. Update `config.py` with your Booking.com login details (if required) and set the list of target URLs for each destination.
+
 3. Run the scraper script:
    ```bash
    python scraper.py
